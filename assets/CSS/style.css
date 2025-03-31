@@ -1,1 +1,52 @@
 /* Global Styles */
+
+/* CSS */
+:root {
+    --Vintage-green: #1b4d3e;
+    --Vintage-cream: #f1e3d3;
+    --Vintage-autumn: #e07a5f;
+    --auburn: #9e2a2b;
+    --Maroon: #690b22;
+}
+
+.water-brush-regular {
+    font-family: "Water Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.allison-regular {
+    font-family: "Allison", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#navbar {
+    background-color: var(--Vintage-green);
+    color: var(--Vintage-cream);
+}
+
+#hero {
+    background-color: var(--Maroon);
+    color: var(--Vintage-cream);
+}
+
+#services {
+    background-color: var(--Vintage-green);
+    color: var(--Vintage-cream);
+}
+
+#luthier {
+    background-color: var(--auburn);
+    color: var(--Vintage-autumn);
+}
+
+p {
+    font-size: 40px;
+}
