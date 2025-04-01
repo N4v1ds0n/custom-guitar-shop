@@ -32,19 +32,30 @@
     color: var(--Vintage-cream);
 }
 
-#hero {
-    background-color: var(--Maroon);
-    color: var(--Vintage-cream);
+#navbar .logo {
+    width: 65px;
 }
+
+#hero {
+    background: url(../images/6d086810-6523-4e8a-ac93-c71484cb3c70.png) no-repeat center center/cover;
+    position: relative;
+    height: 600px;
+}
+
+/*#hero p {
+    min-height: 400px;
+}*/
 
 #services {
     background-color: var(--Vintage-green);
     color: var(--Vintage-cream);
+    min-height: 400px;
 }
 
 #luthier {
     background-color: var(--auburn);
     color: var(--Vintage-autumn);
+    min-height: 400px;
 }
 
 p {
