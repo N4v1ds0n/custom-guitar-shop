@@ -33,7 +33,7 @@
 }
 
 #navbar .logo {
-    width: 65px;
+    height: 40px;
 }
 
 #hero {
@@ -42,22 +42,32 @@
     height: 600px;
 }
 
-/*#hero p {
-    min-height: 400px;
-}*/
-
-#services {
+#workshop {
     background-color: var(--Vintage-green);
     color: var(--Vintage-cream);
     min-height: 400px;
 }
-
-#luthier {
+#services {
     background-color: var(--auburn);
-    color: var(--Vintage-autumn);
-    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-p {
-    font-size: 40px;
+#services .service-card {
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid var(--Vintage-cream);
+}
+
+#luthier {
+    background-color: var(--Vintage-green);
+    color: var(--Vintage-autumn);
+    height: 150px;
+}
+
+#contact {
+    background-color: var(--auburn);
+    color: var(--Vintage-autumn);
 }
