@@ -52,7 +52,7 @@
 
 #custom-shop {
     background: url(../images/80a006c5-f5b3-48fb-8e16-7814a32e109e.png);
-    background-size: 100%;
+    background-size: cover;
 }
 
 #set-up {
@@ -126,6 +126,7 @@
 .parts {
     min-height: 300px;
     background-color: var(--Maroon);
+    color: var(--Vintage-cream);
 }
 
 #pics {
@@ -151,6 +152,7 @@
 
 #pups {
     background-color: var(--Vintage-green);
+    color: var(--surf-green);
 }
 
 
