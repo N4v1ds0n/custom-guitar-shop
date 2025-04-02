@@ -51,10 +51,12 @@
     background-color: var(--auburn);
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 #services .service-card {
-    padding: 15px;
+    padding: 20px;
+    border-radius: 10%;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
@@ -64,10 +66,25 @@
 #luthier {
     background-color: var(--Vintage-green);
     color: var(--Vintage-autumn);
-    height: 150px;
+    height: 350px;
 }
 
 #contact {
-    background-color: var(--auburn);
-    color: var(--Vintage-autumn);
+    background-color: var(--Maroon);
+    color: var(--Vintage-cream);
+    margin: 20, 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#impressum {
+    display: flex;
+    flex-direction: row;
+}
+
+#copyright {
+    align-items: start;
+}
+
