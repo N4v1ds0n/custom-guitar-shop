@@ -49,6 +49,18 @@
     color: var(--Vintage-cream);
     min-height: 400px;
 }
+
+#custom-shop {
+    background: url(../images/80a006c5-f5b3-48fb-8e16-7814a32e109e.png);
+    background-size: 100%;
+}
+
+#set-up {
+    background: url(../images/52658d90-3910-44c9-8b56-ccc895d2c733.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #services {
     background-color: var(--auburn);
     display: flex;
