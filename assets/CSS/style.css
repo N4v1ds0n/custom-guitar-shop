@@ -38,7 +38,7 @@
 }
 
 #hero {
-    background: url(../images/6d086810-6523-4e8a-ac93-c71484cb3c70.png) no-repeat center center/cover;
+    background: url(../images/workshop.png) no-repeat center center/cover;
     position: relative;
     margin-top: 66px;
     height: 600px;
@@ -51,12 +51,12 @@
 }
 
 #custom-shop {
-    background: url(../images/80a006c5-f5b3-48fb-8e16-7814a32e109e.png);
+    background: url(../images/carving.png);
     background-size: cover;
 }
 
 #set-up {
-    background: url(../images/52658d90-3910-44c9-8b56-ccc895d2c733.png);
+    background: url(../images/tuning.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -200,6 +200,17 @@ header {
 .gallery-section {
     min-height: 300px;
     background-color: var(--Maroon);
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thumbnail {
+    height: 200px;
+    margin: 10px;
+
+
 }
 
 #telecaster {
