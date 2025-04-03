@@ -55,9 +55,18 @@
     background-size: cover;
 }
 
+#custom-workshop {
+    background: url(../images/customizing.png);
+    background-size: cover;
+}
+
 #set-up {
     background: url(../images/tuning.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#guitar-shop {
+    background: url(../images/guitar-shop.png);
     background-size: cover;
 }
 
@@ -71,6 +80,7 @@
 #services .service-card {
     padding: 20px;
     border-radius: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
@@ -80,13 +90,14 @@
 #luthier {
     background-color: var(--Maroon);
     color: var(--Vintage-autumn);
-    height: 350px;
+    height: auto
 }
 
 #luthier button {
     background-color: var(--Vintage-green);
     color: var(--surf-green);
     border: none;
+    margin-bottom: 10px;
 }
 
 #contact {
@@ -135,7 +146,7 @@
 }
 
 .parts {
-    min-height: 300px;
+    min-height: 350px;
     background-color: var(--Maroon);
     color: var(--Vintage-cream);
 }
@@ -162,8 +173,10 @@
 }
 
 #pups {
-    background-color: var(--Vintage-green);
-    color: var(--surf-green);
+    background: url(../images/pickups-bg.png) no-repeat center center/cover;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    height: auto;
 }
 
 
