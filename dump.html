@@ -1,0 +1,66 @@
+<section id="workshop">
+    <h2>The Workshop <!-- tool favicon --></h2>
+        <div id="services">
+            <div id="custom-shop" class="service-card">
+              <div>
+                <h3>Build your own guitar <!-- favicon --></i></h3>
+                <p>Custom shop</p>
+              </div>
+            </div>
+            <div id="custom-workshop" class="service-card">
+              <div>
+                <h3>Customize your guitar <!-- favicon --></i></h3>
+                <p>Custom workshop</p>
+              </div>                    
+            </div>
+            <div id="set-up" class="service-card">
+              <div>
+                <h3>Tune your guitar <!-- favicon --></i></h3>
+                <p>guitar set-up</p>
+              </div>                    
+            </div>
+            <div id="guitar-shop" class="service-card">
+              <div>
+                <h3>Buy an affordable custom guitar <!-- favicon --></i></h3>
+                <p>Guitar shop</p>
+              </div>                    
+            </div>
+        </div> 
+</section> 
+
+#custom-shop {
+    background: url(../images/carving.png);
+    background-size: cover;
+}
+
+#custom-workshop {
+    background: url(../images/customizing.png);
+    background-size: cover;
+}
+
+#set-up {
+    background: url(../images/tuning.png);
+    background-size: cover;
+}
+
+#guitar-shop {
+    background: url(../images/guitar-shop.png);
+    background-size: cover;
+}
+
+#services {
+    /*background-color: var(--auburn);*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#services .service-card {
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid var(--Vintage-cream);
+}

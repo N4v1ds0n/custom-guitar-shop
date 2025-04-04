@@ -15,7 +15,7 @@
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="assets/images/Shop-logo.png"
+    href="assets/images/Shop-logo-II-cream.png"
   />
 
   <!-- Google Fonts -->
@@ -38,7 +38,7 @@
   <!-- Navigation -->
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img class="logo" src="./assets/images/Shop-logo.png" alt="Guitar logo"></a>
+      <a class="navbar-brand" href="index.html"><img class="logo" src="./assets/images/Shop-logo-II-cream.png" alt="Guitar logo"></a>
       <h1 class="whisper-regular">Custom Guitar Shop</h1>
       <button
         class="navbar-toggler"
@@ -70,22 +70,23 @@
     </div>
   </nav>
 
-  <!-- Header with site menu -->
-  <header>
+  <main>
+    <!-- Header with site menu -->
+    <header>
     <div id="gallery-head">
       <h2 class="title">
         Gallery
       </h2>
-      <img src="./assets/images/guitar-strat.png" alt="Stratocaster">
+      <img src="./assets/images/guitar-strat-cream.png" alt="Stratocaster">
       <a class="guitar-type" href="#stratocaster">Stratocaster</a>
-      <img src="./assets/images/guitar-tele.png" alt="Telecaster">
+      <img src="./assets/images/guitar-tele-cream.png" alt="Telecaster">
       <a class="guitar-type" href="#telecaster">Telecaster</a>
-      <img src="./assets/images/guitar-semi.png" alt="Semi-hollow">
+      <img src="./assets/images/guitar-semi-cream.png" alt="Semi-hollow">
       <a class="guitar-type" href="#semi-hollow">Semi-hollow</a>
     </div>     
-  </header>
+    </header>
 
-  <section>
+    <section>
     <div id="stratocaster" class="gallery-section">
       <div>
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#blue-strat-full">
@@ -172,9 +173,9 @@
         </div>
       </div>
     </div>
-  </section>
+    </section>
 
-  <section>
+    <section>
     <div id="telecaster" class="gallery-section">
       <div>
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#tele-body">
@@ -225,9 +226,9 @@
         </div>
       </div>
     </div>
-  </section>
+    </section>
 
-  <section>
+    <section>
     <div id="semi-hollow" class="gallery-section">
       <div>
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#semi-full">
@@ -266,45 +267,43 @@
         </div>
       </div>
     </div>
-  </section>
+    </section>
+  </main>
 
-  <footer id="contact">
-    <div id="newsletter">
-      <a href="#" target="_blank" rel="noopener"
-        aria-label="newsletter page (opens in new tab)">
-        Sign up for our newsletter
-      </a>
-    </div>
-    <div id="impressum">
-      <div id="copyrigth">
-        <p>
-          copyright 2025
-        </p>
+  <footer id="contact" class="container-fluid">
+    <div class="row justify-content-center text-start">
+      <div class="col-12 text-center pb-4 mt-4">
+        <h3>
+          <a href="./form.html" target="_blank" rel="noopener"
+           aria-label="contact form (opens in new tab)">
+           Contact us
+          </a>
+        </h3>
       </div>
-      <div>
-        <ul id="address">
-          <li>
-            <p>123 Fakestreet</p>
-          </li>
-          <li>
-            <p>Springfield</p>
-          </li>
-          <li>
-            <p>Tel.: +123 24 357 57911</p>
-          </li>
-        </ul>
-        <div id="social">
-          <a>Mastodon icon</a>
-          <a>bluesky icon</a>
+      <div class="col-12 col-lg-6 mb-4 contact-info">        
+        <div class="row">
+          <div class="mb-4 text-center">
+            <h3>Visit us</h3>
+            <address>
+              <strong>Custom Guitar Shop</strong><br>
+              Otto Mann,<br>
+              123 Fakestreet,<br>
+              Springfield
+            </address>
+          </div> 
         </div>
       </div>
-      <div>
-        <p id="reviews">
-          certificates
-          reviews
-        </p>
+      <div id="social" class="col-12 text-center mb-4">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
+          rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)"
+          rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank" aria-label="Visit our Youtube canal (opens in a new tab)"
+          rel="noopener"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.titok.com" target="_blank" aria-label="Visit our Tiktok page (opens in a new tab)"
+          rel="noopener"><i class="fab fa-tiktok"></i></a>
       </div>
-    </div>        
+    </div>                
   </footer>
 
   <!-- Bootstrap JS Script-->
@@ -313,5 +312,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous">
   </script>
+  <!-- Font Awesome kit-->
+  <script src="https://kit.fontawesome.com/628577f2e3.js" crossorigin="anonymous"></script>
 </body>
 </html>
