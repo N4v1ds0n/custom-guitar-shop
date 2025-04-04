@@ -131,6 +131,11 @@ footer #social i {
     margin: 0 1.5rem;
 }
 
+header {
+    background-color: var(--vintage-green);
+    margin-top: 66px;
+}
+
 
 /* About page specs */
 
@@ -197,27 +202,23 @@ footer #social i {
 
 
 /* Gallery page specs */
-
-header {
-    background-color: var(--vintage-green);
-    margin-top: 66px;
-}
-#gallery-head {
+#gallery-head div {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-grow: 1;
+    padding: 1rem;
 }
 
 #gallery-head .title {
-    flex-grow: 2;
-    padding: 15px;
+    padding: 0.5rem;
     color: var(--vintage-cream);
 }
 
 #gallery-head .guitar-type {
-    flex-grow: 1;
-    color: var(--surf-green);
+    margin-right: 1em;
+    flex-shrink: 1;
+    color: var(--vintage-cream);
 }
 
 #gallery-head img {
@@ -234,12 +235,17 @@ header {
     align-items: center;
 }
 
+.guitar-shape {
+    padding: 1rem;
+    height: 250px;
+}
+
 .thumbnail {
     height: 200px;
     margin: 10px;
-
-
+    border-radius: 8px;
 }
+
 
 #telecaster {
     background-color: var(--vintage-green);
