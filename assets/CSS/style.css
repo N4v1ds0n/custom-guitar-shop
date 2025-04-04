@@ -139,17 +139,18 @@ footer #social i {
     flex-direction: row;
     align-items: center;
     flex-grow: 1;
+    padding: 1rem;
 }
 
 #about-head .title {
-    flex-grow: 2;
-    padding: 15px;
+    padding: 0.5rem;
     color: var(--vintage-cream);
 }
 
 #about-head .guitar-part {
-    flex-grow: 1;
-    color: var(--surf-green);
+    margin-right: 1em;
+    flex-shrink: 1;
+    color: var(--vintage-cream);
 }
 
 #about-head img {
@@ -158,44 +159,39 @@ footer #social i {
 }
 
 .parts {
-    min-height: 350px;
     background-color: var(--maroon);
     color: var(--vintage-cream);
-}
-
-#pics {
-    background-color: #ace1af;
+    padding: 1rem;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
 }
 
 .column {
     flex: 50%;
-    padding: 0 4px;
+    padding: 0;
 }
 
 .column img {
     width: 100%;
-    margin-top: 8px;
     vertical-align: middle;
 }
 
-#pups {
-    background: url(../images/pickups-bg.png) no-repeat center center/cover;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
-    height: auto;
+#pup-image {
+    background-image: url(../images/pickups-bg.png);
+    width: 400px;
+    height: 200px;
+    
 }
 
-#hardware {
-    background: url(../images/hardware.png) no-repeat center center/cover;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-    height: auto;
+#hardware-image {
+    background-image: url(../images/hardware.png);
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+
 }
 
 
