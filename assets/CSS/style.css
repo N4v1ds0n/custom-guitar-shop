@@ -105,6 +105,12 @@ main {
     height: auto
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -300px;
+    visibility: hidden;
+}
 
 #luthier button {
     background-color: var(--vintage-green);
@@ -134,6 +140,10 @@ footer #social i {
 header {
     background-color: var(--vintage-green);
     margin-top: 66px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 
@@ -184,16 +194,23 @@ header {
     vertical-align: middle;
 }
 
+#woods-image {
+    background-image: url(../images/woods-bg.png);
+    background-size: cover;
+    width: 400px;
+    height: 200px;    
+}
+
 #pup-image {
     background-image: url(../images/pickups-bg.png);
     width: 400px;
-    height: 200px;
-    
+    height: 200px;    
 }
 
 #hardware-image {
     background-image: url(../images/hardware.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 400px;
     height: 200px;
 
@@ -237,7 +254,7 @@ header {
 
 .guitar-shape {
     padding: 1rem;
-    height: 250px;
+    height: 230px;
 }
 
 .thumbnail {
