@@ -33,7 +33,7 @@
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><img class="logo" src="./assets/images/Shop-logo.png" alt="Guitar logo"></a>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="./assets/images/icons/Shop-logo.png" alt="Guitar logo"></a>
           <h1 class="whisper-regular">Custom Guitar Shop</h1>
           <button
             class="navbar-toggler"
@@ -69,17 +69,14 @@
     </nav>
 
     <main>
-      <section id="signup">
-        <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-heart-pulse"> What can we do for you?</i></h2>
+      <section id="request">
+        <form id="request-form" method="post"></form>
+            <h2>What can we do for you?</h2>
             <div id="details">
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" class="text-input" type="text" required="">
+                <label for="name">Name</label>
+                <input id="name" name="name" class="text-input" type="text" required="">
                 <br>
-                <label for="last-name">Last Name</label>
-                <input id="last-name" name="last-name" class="text-input" type="text" required="">
-                <br>
-                <label for="email-address">Email Address</label>
+                <label for="email-address">Email</label>
                 <input id="email-address" name="email-address" class="text-input" type="email" required="">
             </div>
             <div class="radio-buttons">
@@ -100,9 +97,27 @@
                   <input id="both" name="service" value="both" type="radio">
               </div>
             </div>
-            
-            <button class="join-button" type="submit">Send</button>
-
+            <div id="request-input">
+              <div id="custom-request">
+                <h3>Custom guitar only</h3>
+                <p>If you already know what materials you would like to be used for your guitar, 
+                  you can select below. This way we can already pick some parts to show you before 
+                  we discuss the final piece.
+                  If your choices are not among the options, you can specify in the Message below
+                </p>
+                <div class="wood-select">
+  
+                </div>
+                <div class="hardware-select">
+  
+                </div>
+              </div>
+              <h3>Send us a personal message explaining how we can help you.</h3>
+              <textarea id="message">
+  
+              </textarea>            
+              <button class="send-button" type="submit">Send</button>
+            </div>
         </form>
       </section>
     </main>

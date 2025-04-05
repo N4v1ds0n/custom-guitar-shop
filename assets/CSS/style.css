@@ -268,3 +268,71 @@ header a {
     background-color: var(--vintage-green);
 }
 /* Form page specs */
+
+#request {
+    background-color: var(--maroon);
+    color: var(--vintage-cream);
+}
+
+#request h2,
+#request h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0;
+}
+
+#details label {
+    padding: 1rem;
+}
+
+#details input {
+    margin: 0, 15px, 0, 15px;
+}
+
+.radio-buttons {
+    padding: 1rem;
+    margin-left: 15px;
+}
+
+#request-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+#custom-request {
+    width: 90%;
+    padding: 1rem;
+    border: solid var(--vintage-cream) 1px;
+    border-radius: 8px;
+}
+
+#message {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
+
+/* 404 */
+
+#error-message {
+    background-color: var(--maroon);
+    color: var(--vintage-cream);
+}
