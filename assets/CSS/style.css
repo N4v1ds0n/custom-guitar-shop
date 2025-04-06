@@ -197,21 +197,21 @@ header a {
 #woods-image {
     background-image: url(../images/woods-bg.png);
     background-size: cover;
-    width: 400px;
+    width: 100%;
     height: 200px;    
 }
 
 #pup-image {
     background-image: url(../images/pickups-bg.png);
-    width: 400px;
+    width: 100%;
     height: 200px;    
 }
 
 #hardware-image {
-    background-image: url(../images/hardware.png);
+    background-image: url(../images/hardware-sm.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 100%;
     height: 200px;
 
 }
@@ -314,6 +314,10 @@ header a {
     border-radius: 8px;
 }
 
+.specs {
+    height: 500px;
+}
+
 #message {
     width: 90%;
     height: 150px;
@@ -326,6 +330,11 @@ header a {
     font-size: 16px;
     resize: none;
 }
+
+#form-button {
+    padding-bottom: 1rem;
+}
+
 
 
 

@@ -105,19 +105,85 @@
                   we discuss the final piece.
                   If your choices are not among the options, you can specify in the Message below
                 </p>
-                <div class="wood-select">
-  
+                <div class="shape-select" class="specs">
+                  <h4>Guitar shape</h4>
+                  <hr>
+                  <label for="shape-select">Guitar Body</label>
+                  <select id="shape-select" class="form-select">
+                    <option>Stratocaster</option>
+                    <option>Telecaster</option>
+                    <option>Semi-hollow</option>
+                  </select>  
                 </div>
-                <div class="hardware-select">
-  
+                <div class="wood-select" class="specs">
+                  <h4>Woods</h4>
+                  <hr>
+                  <label for="bodywood">Guitar Body</label>
+                  <select id="bodywood" class="form-select">
+                    <option>Alder</option>
+                    <option>Ash</option>
+                    <option>Basswood</option>
+                    <option>Mahogany</option>
+                    <option>Koa</option>
+                  </select>
+                  <label for="neckwood">Guitar Neck</label>
+                  <select id="neckwood" class="form-select">
+                    <option>Maple</option>
+                    <option>Mahogany</option>
+                    <option>Rosewood</option>
+                    <option>Korina</option>
+                  </select> 
+                  <label for="fretwood">Fretboard</label>
+                  <select id="fretwood" class="form-select">
+                    <option>Ebony</option>
+                    <option>Wenge</option>
+                    <option>Pau ferro</option>
+                    <option>Jatoba/Courbaril</option>
+                    <option>Rosewood</option>
+                  </select>   
+                </div>
+                <div class="hardware-select" class="specs">
+                  <h4>Hardware</h4>
+                  <hr>
+                  <label for="pickup-neck">Pickups</label>
+                  <select id="pickup-neck" class="form-select">
+                    <option>none</option>
+                    <option>Custom Shop "69"</option>
+                    <option>Texas Special</option>
+                    <option>Bill Lawrence L-250</option>
+                    <option>Seymour Duncan Cool Rail</option>
+                  </select>
+                  <label for="pickup-middle">Pickups</label>
+                  <select id="pickup-middle" class="form-select">
+                    <option>none</option>
+                    <option>Seymour Duncan SSL 4</option>
+                    <option>P-90</option>
+                    <option>Dimarzio Cruiser</option>
+                    <option>Dimarzio FT-1</option>
+                  </select>
+                  <label for="pickup-bridge">Pickups</label>
+                  <select id="pickup-bridge" class="form-select">
+                    <option>none</option>
+                    <option>P-90</option>
+                    <option>Seymour Duncan Cool Rail</option>
+                    <option>Seymour Duncan SH5</option>
+                    <option>Dimarzio Tone Zone</option>
+                    <option>Dirty Fingers</option>
+                  </select>
+                  <label for="bridge-select">Choose a bridge type</label>
+                  <select id="bridge-select" class="form-select">
+                    <option>Toploader</option>
+                    <option>Through body</option>
+                  </select>   
                 </div>
               </div>
               <h3>Send us a personal message explaining how we can help you.</h3>
-              <textarea id="message">
-  
-              </textarea>            
-              <button class="send-button" type="submit">Send</button>
+              <textarea id="message">  
+              </textarea>                          
             </div>
+            <div id="form-button" class="text-center">
+              <button class="send-button btn btn-primary" type="submit">Send</button>
+            </div>            
         </form>
       </section>
     </main>
