@@ -368,3 +368,51 @@ header a {
     background-color: var(--maroon);
     color: var(--vintage-cream);
 }
+
+/* Media query: sm (576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Media query: md (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Hero */
+    #slogan {
+        width: 400px;
+        left: 40px;
+    }
+
+
+    /* Reasons section */
+    #guitars,
+    #tuning {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #guitars > div,
+    #tuning > div {
+        width: 75%;
+    }
+
+    #tuning > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+}
+
+/* Media query: lg (992px and up) */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* Media query: xl (1200px and up) */
+@media screen and (min-width: 1200px) {
+    
+}
+
+/* Media query: xxl (1400px and up) */
+@media screen and (min-width: 1400px) {
+    
+}
