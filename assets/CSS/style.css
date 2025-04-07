@@ -1,4 +1,4 @@
-/* Global Styles */
+/* ROOT */ 
 :root {
     --vintage-green: #1b4d3e;           /* rgb( 27,  77,  62) */
     --surf-green: #ace1af;              /* rgb(172, 225, 175) */
@@ -8,23 +8,46 @@
     --maroon: #690b22;                  /* rgb(105,  11,  34) */
 }
 
-.water-brush-regular {
-    font-family: "Water Brush", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
+/* Fonts */
 .whisper-regular {
     font-family: "Whisper", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-.allison-regular {
-    font-family: "Allison", cursive;
+.yesteryear-regular {
+    font-family: "Yesteryear", cursive;
     font-weight: 400;
     font-style: normal;
 }
+  
+.smythe-regular {
+  font-family: "Smythe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.belanosima-regular {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Global Styles */
   
 #navbar {
     background-color: var(--vintage-green);
@@ -60,7 +83,7 @@ main {
 
 }
 
-#slogan > h2, #slogan > h3 {
+#slogan > h1, #slogan > h2 {
     color: var(--vintage-cream);
 }
 
