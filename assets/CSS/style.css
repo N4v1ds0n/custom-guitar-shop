@@ -312,6 +312,7 @@ a.anchor-deep {
     min-height: 300px;
     background-color: var(--maroon);
     overflow: scroll;
+    overflow-y: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -324,8 +325,12 @@ a.anchor-deep {
 
 .thumbnail {
     height: 200px;
+    width: 200px; /* Set the height to match the width */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the circle without distortion */
+    overflow: hidden; /* Ensures no overflow outside the circular border */
+    margin: 10px; /* Optional margin for spacing between thumbnails */
     margin: 10px;
-    border-radius: 8px;
 }
 
 
@@ -408,6 +413,9 @@ a.anchor-deep {
 #error-message {
     background-color: var(--maroon);
     color: var(--vintage-cream);
+    text-align: center;
+    padding: 50px;
+    min-height: 57vh;
 }
 
 /* Media query: sm (575px and down) */
@@ -458,6 +466,25 @@ a.anchor-deep {
 }
 /* Media query: md (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Services section */
+    #guitars,
+    #tuning {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #guitars > div,
+    #tuning > div {
+        width: 75%;
+    }
+
+    #tuning > div {
+        text-align: end;
+        align-self: flex-end;
+    } 
+
+    /* luthier section */
     #luthier img {
         max-width: 30%; /* adjust image to text size */
     }
@@ -487,25 +514,7 @@ a.anchor-deep {
         display: flex;
         justify-content: flex-end;
         margin-right: 20px;
-    }
-
-    /* Services section */
-    #guitars,
-    #tuning {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #guitars > div,
-    #tuning > div {
-        width: 75%;
-    }
-
-    #tuning > div {
-        text-align: end;
-        align-self: flex-end;
-    }  
+    } 
 }
 
 /* Media query: lg (992px and up) */
@@ -572,5 +581,12 @@ a.anchor-deep {
 
     .text-content {
         flex: 4;
+    }
+}
+
+/* Media query full hd (1900 and up */
+@media screen and (min-width: 1900px) {
+    .gallery-section {
+        overflow: hidden;
     }
 }
