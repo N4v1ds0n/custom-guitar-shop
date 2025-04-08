@@ -407,9 +407,19 @@ a.anchor-deep {
 }
 
 /* Success */
+#success-message {
+    background-color: var(--maroon);
+    color: var(--vintage-cream);
+    text-align: center;
+    padding: 50px;
+    min-height: 64vh;
+}
+
+#success-message h3 {
+    text-align: left;
+}
 
 /* 404 */
-
 #error-message {
     background-color: var(--maroon);
     color: var(--vintage-cream);
