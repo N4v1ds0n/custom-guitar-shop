@@ -79,8 +79,9 @@
 
     <main>
       <section id="request">
+        <h2 class="playfair-display">What can we do for you?</h2>
         <form id="request-form" method="post" action="./formdump.php"></form>
-            <h2 class="playfair-display">What can we do for you?</h2>
+          <div id="basics">            
             <div id="details">
                 <label for="name" class="playfair-display">Name</label>
                 <input id="name" name="name" class="text-input" type="text" required="">
@@ -106,14 +107,16 @@
                   <input id="set-up" name="set-up" value="both" type="radio">
               </div>
             </div>
-            <div id="request-input">
-              <div id="custom-request">
-                <h3 class="playfair-display">Custom guitar only</h3>
-                <p class="playfair-display">If you already know what materials you would like to be used for your guitar, 
-                  you can select below. This way we can already pick some parts to show you before 
-                  we discuss the final piece.
-                  If your choices are not among the options, you can specify in the Message below
-                </p>
+          </div>
+          <div id="additional">
+            <div id="custom-request">
+              <h3 class="playfair-display">Custom guitar only</h3>
+              <p class="playfair-display">If you already know what materials you would like to be used for your guitar, 
+                you can select below. This way we can already pick some parts to show you before 
+                we discuss the final piece.
+                If your choices are not among the options, you can specify in the Message below
+              </p>
+              <div id="custom-specs">
                 <div class="shape-select playfair-display" class="specs">
                   <h4>Guitar shape</h4>
                   <hr>
@@ -123,8 +126,8 @@
                     <option>Telecaster</option>
                     <option>Semi-hollow</option>
                   </select>  
-                </div>
-                <div class="wood-select playfair-display" class="specs">
+              </div>
+              <div class="wood-select playfair-display" class="specs">
                   <h4>Woods</h4>
                   <hr>
                   <label for="bodywood">Guitar Body</label>
@@ -150,8 +153,8 @@
                     <option>Jatoba/Courbaril</option>
                     <option>Rosewood</option>
                   </select>   
-                </div>
-                <div class="hardware-select playfair-display" class="specs">
+              </div>
+              <div class="hardware-select playfair-display" class="specs">
                   <h4>Hardware</h4>
                   <hr>
                   <label for="pickup-neck">Pickups</label>
@@ -184,12 +187,14 @@
                     <option>Toploader</option>
                     <option>Through body</option>
                   </select>   
-                </div>
               </div>
-              <h3 class="playfair-display">Send us a personal message explaining how we can help you.</h3>
-              <textarea id="message" class="playfair-display">  
-              </textarea>                          
+                
+              </div>
             </div>
+            <h3 class="playfair-display">Send us a personal message explaining how we can help you.</h3>
+            <textarea id="message" class="playfair-display">  
+            </textarea>                          
+            
             <div class="form-check">
               <input 
                 class="form-check-input" 
@@ -203,8 +208,9 @@
               </label>
             </div>
             <div id="form-button" class="text-center playfair-display">
-              <button class="send-button btn btn-outline-primary" type="submit"><a href="./success.html" class="josefin-sans">Send</a></button>
-            </div>            
+              <button class="send-button btn btn-outline-light" type="submit">Send</button>
+            </div>
+          </div>            
         </form>
       </section>
     </main>
