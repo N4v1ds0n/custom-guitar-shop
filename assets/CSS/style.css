@@ -388,6 +388,7 @@ a.anchor-deep {
 
 #form-button {
     padding-bottom: 1rem;
+    color: var(--vintage-cream) !important;
 }
 
 /* Success */
