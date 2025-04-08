@@ -35,10 +35,20 @@
 <body>
 
     <!-- Navigation -->
-  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img class="logo" src="./assets/images/icons/Shop-logo-II-cream.png" alt="Guitar logo"></a>
-          <h1 class="yesteryear-regular">Otto's Custom Guitars</h1>
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top"">
+        <div class="container-fluid">
+          
+          <!--Logo-->
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="./assets/images/icons/Shop-logo-II-cream.png" alt="Guitar logo">
+          </a>
+          
+          <!-- Title -->
+          <div class="navbar-title mx-auto">
+            <span class="yesteryear-regular fs-4">Otto's Custom Guitars</span>
+          </div>
+          
+          <!-- Toggle-Button -->          
           <button
             class="navbar-toggler"
             type="button"
@@ -50,8 +60,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto">
+
+          <!-- Navigation -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
@@ -145,7 +157,7 @@
     <section>
           <div id="luthier">
             <div class="row" id="Otto">
-              <a class="anchor" id="top"></a>
+              <a class="anchor-deep" id="top"></a>
               <div id="luth-text">
                 <h3 class="playfair-display">About Otto Mann:</h3>
                 <p class="playfair-display">

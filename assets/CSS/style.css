@@ -9,22 +9,10 @@
 }
 
 /* Fonts */
-.whisper-regular {
-    font-family: "Whisper", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .yesteryear-regular {
     font-family: "Yesteryear", cursive;
     font-weight: 400;
     font-style: normal;
-}
-  
-.smythe-regular {
-  font-family: "Smythe", system-ui;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .playfair-display {
@@ -41,12 +29,6 @@
     font-style: normal;
 }
 
-.belanosima-regular {
-    font-family: "Belanosima", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 /* Global Styles */
   
 #navbar {
@@ -57,6 +39,12 @@
 #navbar .logo {
     height: 40px;
 }
+
+.navbar-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 main {
     flex: 1 0 auto;
@@ -129,6 +117,13 @@ main {
 }
 
 a.anchor {
+    display: block;
+    position: relative;
+    top: -66px;
+    visibility: hidden;
+}
+
+a.anchor-deep {
     display: block;
     position: relative;
     top: -300px;
