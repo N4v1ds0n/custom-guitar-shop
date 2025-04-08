@@ -58,6 +58,15 @@
     text-align: center; /* keep title central */
 }
 
+header {
+    background-color: var(--vintage-green);
+    margin-top: 66px;
+}
+
+header a {
+    text-decoration: none;
+}
+
 /* default main design */
 main {                                                      /* set main content of page below navbar */
     flex: 1 0 auto;  
@@ -189,15 +198,6 @@ a.anchor-deep {
 
 #luthier button a {
     color: var(--surf-green);
-    text-decoration: none;
-}
-
-header {
-    background-color: var(--vintage-green);
-    margin-top: 66px;
-}
-
-header a {
     text-decoration: none;
 }
 
