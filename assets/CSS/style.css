@@ -454,6 +454,7 @@ a.anchor-deep {
         flex: 1; /* Text should take remaining space */
         margin-right: 20px; /* Space between text and image */
     }
+
 }
 /* Media query: md (768px and up) */
 @media screen and (min-width: 768px) {
@@ -479,6 +480,13 @@ a.anchor-deep {
         height: auto;
         object-fit: cover;
         align-self: flex-end;
+    }
+
+    #woods-image,
+    #hardware-image {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
     }
 
     /* Services section */
