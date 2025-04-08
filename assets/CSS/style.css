@@ -1,4 +1,5 @@
 /* ROOT */ 
+/* set color palette */
 :root {
     --vintage-green: #1b4d3e;           /* rgb( 27,  77,  62) */
     --surf-green: #ace1af;              /* rgb(172, 225, 175) */
@@ -8,7 +9,7 @@
     --maroon: #690b22;                  /* rgb(105,  11,  34) */
 }
 
-/* Fonts */
+/* fonts */
 .yesteryear-regular {
     font-family: "Yesteryear", cursive;
     font-weight: 400;
@@ -29,49 +30,62 @@
     font-style: normal;
 }
 
-/* Global Styles */
+/* global styles */
 
-/* Coloring */
+/* navbar section */
 #navbar {
-    background-color: var(--vintage-green);
+    background-color: var(--vintage-green);    /* adjust navbar color to color scheme */
     color: var(--vintage-cream);
 }
 
 #navbar .nav-link {
-    color: var(--vintage-cream);  /* Text color for the links */
+    color: var(--vintage-cream);  /* text color for the links */
 }
   
 #navbar .nav-link:hover {
-    color: var(--surf-green);  /* Change color on hover */
+    color: var(--surf-green);  /* change color on hover */
 }
 
-/* Formatting */
 #navbar .navbar-brand {
-    margin-right: auto;
+    margin-right: auto;   
 }
 #navbar .logo {
-    height: 40px;
+    height: 40px;       /* set size of the navbar logo */
 }
 
-.navbar-title {
-    flex: 1; /* Nimmt den verbleibenden Platz ein */
-    text-align: center; /* Zentrale Ausrichtung des Textes */
+.navbar-title {                                             /* center navbar title */
+    flex: 1; /* make sure empty space is handled */
+    text-align: center; /* keep title central */
 }
 
-main {
-    flex: 1 0 auto;
-    margin-top: 66px;
+/* default main design */
+main {                                                      /* set main content of page below navbar */
+    flex: 1 0 auto;  
+    margin-top: 66px;  
+}
+
+/* footer section */
+
+footer {                                                    /* set footer colors */
+    background-color: var(--vintage-green);  
+    color: var(--vintage-cream);
+}
+
+footer #social i {                                          /* design social media icons in footer */
+    font-size: 2rem;                
+    color: var(--vintage-cream);
+    margin: 0 1.5rem;
 }
 
 /* Home page section */
 
-#hero {
-    background: url(../images/workshop.png) no-repeat center center/cover;
+#hero {                                                     /* set and design hero image */
+    background: url(../images/workshop.png) no-repeat center center/cover; 
     position: relative;
     height: 600px;
 }
 
-#slogan {
+#slogan {                                                   /* set an opaque background for a page slogan */
     background-color:  rgba(105,  11,  34, 0.5);
     font-size: 130%;
     position: absolute;
@@ -83,7 +97,7 @@ main {
 
 }
 
-#slogan > h1, #slogan > h2 {
+#slogan > h1, #slogan > h2 {                                /*set text color for page slogan */
     color: var(--vintage-cream);
 }
 
@@ -124,8 +138,26 @@ main {
 #luthier {
     background-color: var(--maroon);
     color: var(--vintage-autumn);
-    padding: 66px;
-    height: auto
+    display: flex;
+    flex-direction: column; /* Stack content vertically by default (for small screens) */
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Align content to the top */
+    position: relative; /* For the button positioning */
+    padding: 20px;
+    gap: 20px; /* Add space between text and image */
+    width: 100%;
+    min-height: 300px; /* Ensure the section has a minimum height */
+    
+}
+
+
+#luthier img {                                                      /* maintain image aspect ratio */
+    border-radius: 50%;
+    max-width: 100%; /* Ensure the image fills the width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the image fits correctly */
+    max-height: 100%; /* Prevent image from exceeding the height */
+    flex-grow: 1;
 }
 
 a.anchor {
@@ -142,29 +174,22 @@ a.anchor-deep {
     visibility: hidden;
 }
 
+#luthier #button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 #luthier button {
     background-color: var(--vintage-green);
     border: solid var(--surf-green) 1px;
     border-radius: 4px;
-    margin-bottom: 10px;
 }
 
 #luthier button a {
     color: var(--surf-green);
     text-decoration: none;
-}
-
-/* Footer section */
-
-footer {
-    background-color: var(--vintage-green);
-    color: var(--vintage-cream);
-}
-
-footer #social i {
-    font-size: 2rem;
-    color: var(--vintage-cream);
-    margin: 0 1.5rem;
 }
 
 header {
@@ -365,9 +390,7 @@ header a {
     padding-bottom: 1rem;
 }
 
-
-
-
+/* Success */
 
 /* 404 */
 
@@ -376,21 +399,58 @@ header a {
     color: var(--vintage-cream);
 }
 
-/* Media query: sm (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media query: sm (768px and down) */
+@media screen and (max-width: 575px) {
+    #luthier {
+        flex-direction: column; /* Stack text and image vertically */
+        justify-content: flex-start; /* Align to the top */
+    }
 
+    #luthier img {
+        width: 80%; /* adjust image size */
+        height: auto; /* maintain aspect ratio */
+    }
+    
+    
+    #luthier #button-container {                            /* Set button at the bottom */
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
-/* Media query: md (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media query: md (576px and up) */
+@media screen and (min-width: 576px) {
     /* Hero */
     #slogan {
         width: 400px;
         left: 40px;
     }
 
+    #luthier {
+        flex-direction: row; /* Align content horizontally */
+        justify-content: space-between; /* Space out text and image */
+    }
 
-    /* Reasons section */
+    #luthier img {
+        max-width: 45%; /* adjust image to text size */
+        max-height: 100%; /* keep image in container's height */
+        flex-grow: 1; /* Allow the image to grow and shrink with the text */
+    }
+
+    #luthier #luth-text {
+        flex: 1; /* Text should take remaining space */
+        margin-right: 20px; /* Space between text and image */
+    }
+}
+/* Media query: md (768px and up) */
+@media screen and (min-width: 768px) {
+    #luthier img {
+        max-width: 30%; /* adjust image to text size */
+    }
+
+    /* Services section */
     #guitars,
     #tuning {
         display: flex;
@@ -406,10 +466,7 @@ header a {
     #tuning > div {
         text-align: end;
         align-self: flex-end;
-    }
-
-
-    
+    }  
 }
 
 /* Media query: lg (992px and up) */
@@ -421,15 +478,34 @@ header a {
         left: 50%;
         transform: translateX(-50%);
     }
+
+    #luthier {
+        padding: 30px; /* Add more padding for larger screens */
+        gap: 30px; /* Increase gap between text and image */
+        align-items: stretch;
+    }
+
+    #luthier img {
+        max-width: 25%; /* adjust image to text size */
+    }
+
+    #luthier #luth-text {
+        flex: 3; /* Text should take remaining space */
+    }
     
 }
 
 /* Media query: xl (1200px and up) */
 @media screen and (min-width: 1200px) {
-    
+    #luthier img {
+        max-width: 20%; /* adjust image to text size */
+    } 
 }
 
 /* Media query: xxl (1400px and up) */
 @media screen and (min-width: 1400px) {
+    #luthier img {
+        max-width: 10%; /* adjust image to text size */
+    }
     
 }
