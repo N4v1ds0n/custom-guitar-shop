@@ -30,21 +30,33 @@
 }
 
 /* Global Styles */
-  
+
+/* Coloring */
 #navbar {
     background-color: var(--vintage-green);
     color: var(--vintage-cream);
 }
 
+#navbar .nav-link {
+    color: var(--vintage-cream);  /* Text color for the links */
+}
+  
+#navbar .nav-link:hover {
+    color: var(--surf-green);  /* Change color on hover */
+}
+
+/* Formatting */
+#navbar .navbar-brand {
+    margin-right: auto;
+}
 #navbar .logo {
     height: 40px;
 }
 
 .navbar-title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+    flex: 1; /* Nimmt den verbleibenden Platz ein */
+    text-align: center; /* Zentrale Ausrichtung des Textes */
+}
 
 main {
     flex: 1 0 auto;
@@ -402,6 +414,13 @@ header a {
 
 /* Media query: lg (992px and up) */
 @media screen and (min-width: 992px) {
+
+    /* adjust navbar title */
+    .navbar-title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     
 }
 
