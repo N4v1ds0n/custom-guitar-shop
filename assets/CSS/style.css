@@ -342,6 +342,7 @@ a.anchor-deep {
     color: var(--vintage-cream);
 }
 
+#request h1,
 #request h2,
 #request h3 {
     text-align: center;
