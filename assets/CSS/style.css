@@ -84,6 +84,11 @@ footer #social i {                                          /* design social med
     margin: 0 1.5rem;
 }
 
+.contact-link {
+    color: var(--surf-green);
+}
+
+
 /* Home page section */
 
 #hero {                                                     /* set and design hero image */

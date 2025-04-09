@@ -26,4 +26,7 @@
 | --- | --- | --- | --- |
 | assets | [style.css](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://n4v1ds0n.github.io/custom-guitar-shop) | ![screenshot](docs/testing/css-assets-style.png) |
 
+## Accessibility
 
+| Page | File | URL | Screenshot |
+| --- | --- | --- | --- |
