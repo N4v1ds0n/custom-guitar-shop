@@ -95,30 +95,28 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
 7. As a first-time visitor, I want to find your location and contact info so I can visit the shop or contact you directly.
 
 #### Returning User
-1. As a returning visitor, I want to quickly access the contact form so I can follow up or start a new request without searching around.
+8. As a returning visitor, I want to quickly access the contact form so I can follow up or start a new request without searching around.
 
-2. As a returning visitor, I want to check new gallery updates to see recent work or new models.
+9. As a returning visitor, I want to subscribe to or read the newsletter so I stay in the loop on shop news and builds.
 
-3. As a returning visitor, I want to subscribe to or read the newsletter so I stay in the loop on shop news and builds.
-
-4. As a returning visitor, I want to update my previous request or preferences.
-
-5. As a returning visitor, I want to refer a friend by sharing your website, because I’m excited about your guitars.
+10. As a returning visitor, I want to share your social links and website, because I’m excited about your guitars.
 
 #### Site Owner
 
-1. As the site owner, I want to showcase my guitar building expertise to build trust and attract clients.
+11. As the site owner, I want to showcase my guitar building expertise to build trust and attract clients.
 
-2. As the site owner, I want to provide an easy way for people to contact me so I don’t miss potential custom orders.
+12. As the site owner, I want to provide an easy way for people to contact me so I don’t miss potential custom orders.
 
-3. As the site owner, I want to collect useful details from customers so I can prepare and quote more efficiently.
+13. As the site owner, I want to collect useful details from customers so I can prepare and quote more efficiently.
 
-4. As the site owner, I want to drive traffic through social media links to grow my following and visibility.
+14. As the site owner, I want to drive traffic through social media links to grow my following and visibility.
 
-5. As the site owner, I want to encourage newsletter signups to build a loyal community of guitar lovers.
+15. As the site owner, I want to encourage newsletter signups to build a loyal community of guitar lovers.
 
 ## Design
-The website’s design communicates a clear message wrappe in a warm and retro-styled look. The feel of the site should, inspire creativity, and support user engagement. The combination of elegant typography like Playfair Display and Yesteryear fonts with high-quality imagery gives a sense of artisanal quality and custom design. A detailed form shows that individuality and user input are valued.
+
+### Design Choices
+The website’s design communicates a clear message wrapped in a warm and retro-styled look. The vintage look with high-quality imagery should, inspire creativity, and support user engagement. A detailed form shows that individuality and user input are valued.
 Structured layout, consistent styling, and responsive design signal that this is a serious workshop, not a hobbyist page.
 
 ### Colour
@@ -126,6 +124,171 @@ As core- colors dark green and red colours in combination with cream/beige tones
 The high contrast gives the site a profesional and accessible look.
 
 ![color palette](./docs/cgs-color-palette.png)
+
+### Fonts
+The combination of elegant typography like Playfair Display and Yesteryear fonts gives a sense of artisanal quality and custom design.
+
+### Structure
+The website follows a clear, user-friendly structure:
+- Index (Home): A welcoming introduction to the luthier and his offerings.
+- About: In-depth details about the shop's philosophy and craftsmanship.
+- Gallery: Detailed images of various guitars, organized by type, with modals for closer inspection.
+- Contact form: A form for customer inquiries, along with location and contact information.
+
+### Wireframes
+
+## Technologies used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks and Tools
+- Bootstrap v5.0 (navbar and footer)
+- Git (repo management)
+- GitHub (storage and deployment)
+- CorelDraw2024 (designing icons and logos)
+- Balsamiq (wireframing)
+- Google Fonts 
+- Favicon.io
+- Font Awesome (Social Media Icons)
+- OpenAI (Picture generation)
+- Coolors (creation of color palette)
+
+## Features
+The Website includes four pages plus the comfirmation page after form hand-in and a 404- not foud page for bad links.
+There are sixteen features implemented at this stage. 
+
+### Logo and Navigation Bar
+- this feature can be found on every page, adapted to each pages requirements.
+- the navbar is collapsable for smaller screens and fully responsive, links are available according to current page.
+- ensures easy navigation.
+- it has a hover function to highlight links
+(Relevant user stories: 5, 8)
+
+![Logo and NavBar](./docs/feat/logo-navbar.png)
+
+### Hero Image and Slogan
+- Invites the user to the workshop and shows the style of the shop.
+- The slogan gives the user an idea of the store philosophy.
+(Relevant user stories: 1)
+
+![Hero and Slogan](./docs/feat/heroslogan.png)
+
+### Custom Guitar Section
+- Informs the user about custom guitars in general.
+- gives the user an idea what visions can be made possible.
+- provides link to get in contact.
+(Relevant user stories: 1)
+
+![Custom Section](./docs/feat/custom.png)
+
+### Signature Guitar Section
+- Informs the user that the shop also creates affordable signature guitars
+- Refers to the physical store.
+(Relevant user stories: 1)
+
+![Signature Section](./docs/feat/signature.png)
+
+### Customization Section
+- Informs user that existing guitars can be customized in the workshop.
+- Refers to contact form
+(Relevant user stories: 1)
+
+![Customize Section](./docs/feat/customize.png)
+
+### Guitar Setup Section
+- Informs user that shop offers setup of users guitars in the workshop workshop.
+- Refers to contact form
+(Relevant user stories: 1)
+
+![Setup Section](./docs/feat/setup.png)
+
+### Luthier Section
+- Introduces the user to the resident luthier.
+- shares the philosophy and background story of the Artisan.
+(Relevant user stories: 1,2)
+
+![Luthier](./docs/feat/luthier.png)
+
+### Footer
+- Provides contact information for the users.
+- Store address.
+- Link to contact form.
+(Relevant user stories: )
+
+![Footer](./docs/feat/footer.png)
+
+### Header
+- quick and easy navigation to subsections of about page and gallery page respectively.
+(Relevant user stories: 5)
+
+![Header](./docs/feat/header-1.png)
+
+![Header](./docs/feat/header-2.png)
+
+### Woods Section
+- Gives the user some knowledge of the importance of woods for the crafting process and tone.
+- Shows some exemplary woods.
+(Relevant user stories: )
+
+![Woods](./docs/feat/woods.png)
+ 
+### Pickups Section
+- Gives the user basic knowledge of guitar pickups and how they affect the sound of the instrument.
+- pickup-collage.
+(Relevant user stories: )
+
+![Pups](./docs/feat/pups.png)
+
+### Hardware Section
+- Gives the user an idea of how the hardware affects play and feel of a guitar.
+- Shows a guitar bridge.
+(Relevant user stories: )
+
+![Hardware](./docs/feat/hardw.png)
+
+### Gallery
+- Shows a selection of guitars built by the luthier.
+- Shows different available styles with example images.
+- Images can be enlarged via modal.
+(Relevant user stories: 1, 2, 3, )
+
+![Woods](./docs/feat/gallery-1.png)
+
+![Woods](./docs/feat/gallery-2.png)
+
+### Contact Form
+- Gives the user the possibility to get in contact
+- Requires name and email
+- Offers a selection between custom guitar, signatuire guitar, customization and setup (pic. 1).
+- Provides a mask for a preconfiguration of a custom guitar (pic. 2).
+- Free text field for special requirements (pic 3).
+- Signup for a newsletter (pic. 4).
+(Relevant user stories: )
+
+![Form 1](./docs/feat/form-1.png)
+
+![Form 2](./docs/feat/form-2.png)
+
+![Form 3](./docs/feat/form-3.png)
+
+![Form 4](./docs/feat/form-4.png)
+
+### Confirmation Page
+- Gives the user some feedback that data has been sent and contact has been established.
+- Offers full navigation options to get back.
+(Relevant user stories: )
+
+![Confirmation](./docs/feat/success.png)
+
+### 404 Page
+- Informs the user of a bad link and offers navigation back to other pages.
+(Relevant user stories: )
+
+![404](./docs/feat/404.png)
+
+
 
 
 ### 1. Strategy Plane – User Needs & Business Objectives
