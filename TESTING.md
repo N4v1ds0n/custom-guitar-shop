@@ -14,6 +14,7 @@
 | root | [about.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/about.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/about.html) | ![screenshot](docs/testing/html/about.png) |
 | root | [form.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/form.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/form.html) | ![screenshot](docs/testing/html/form.png) |
 | root | [gallery.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/gallery.html) | ![screenshot](docs/testing/html/gallery.png) |
+| root | [index.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/index.html) | ![screenshot](docs/testing/html/index.png) |
 
 
 ### CSS

@@ -190,15 +190,10 @@ a.anchor-deep {
 
 #luthier button {
     background-color: var(--vintage-green);
+    color: var(--surf-green);
     border: solid var(--surf-green) 1px;
     border-radius: 4px;
 }
-
-#luthier button a {
-    color: var(--surf-green);
-    text-decoration: none;
-}
-
 
 /* About page specs */
 
