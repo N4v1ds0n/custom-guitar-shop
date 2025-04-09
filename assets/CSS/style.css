@@ -386,6 +386,7 @@ a.anchor-deep {
     flex-direction: column;
     gap: 2rem;
     margin: 2rem;
+    margin-bottom: 0;
 }
 
 #additional > div {
