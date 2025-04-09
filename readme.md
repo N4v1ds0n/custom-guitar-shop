@@ -139,6 +139,19 @@ The website follows a clear, user-friendly structure:
 
 ### Wireframes
 
+<details><summary>index</summary>
+<img src="docs/wireframes/index.png">
+</details>
+<details><summary>about</summary>
+<img src="docs/wireframes/about.png">
+</details>
+<details><summary>gallery</summary>
+<img src="docs/wireframes/gallery.png">
+</details>
+<details><summary>form</summary>
+<img src="docs/wireframes/form.png">
+</details>
+
 ## Technologies used
 
 ### Languages
@@ -154,7 +167,7 @@ The website follows a clear, user-friendly structure:
 - Google Fonts 
 - Favicon.io
 - Font Awesome (Social Media Icons)
-- OpenAI (Picture generation)
+- OpenAI (Picture generation and research)
 - Coolors (creation of color palette)
 
 ## Features
@@ -292,24 +305,57 @@ There are sixteen features implemented at this stage.
 
 ## Validation
 
-Please refer to [TESTING.md](TESTING.md) file.
+Please refer to [testing.md](testing.md) file.
 
 
 
 ## Bugs
+| *Bug* | *Fix* |
+| ----------- | ----------- |
+| On large screens navbar-title moves left | Add absolute positioning to title to overwrite auto setting|
+| On large screens luthier-image grows to full screen size | Add a media query to fix image size on larger screens |
+| Images in workshop section are misaligned | Adjust picture margin and align pictures in wood and hardware section to the right |
+| Footer of contact form shows "contact us" link | Remove div containing link and restyle following div to keep styling |
+| A gap between form and footer appears in the background | Set margin bottom of child "additional"-div to zero |
+
 
 ## Deployment
+The website has been deployed on GitHub Pages. This can be done in the settings of the repository.
+1. In settings choose Pages
+2. Set the source to master
+3. Refres the page and at the top it should say: "Your site is published at https://username.github.io/repo-name/"
+- note that unless you're on a pro plan you can only publish on pages, if your repo is public.
 
+If you are interested in forking the repository this can be done in the repo itself. There is a button in the top right corner resembling a forked road.
+
+You can clone the repository by following these steps:
+
+1. Go to the GitHub repository.
+2. Locate and click on the green "Code" button at the very top, above the commits and files.
+3. Select whether you prefer to clone using "HTTPS", "SSH", or "GitHub CLI", and click the "copy" button to copy the URL to your clipboard.
+4. In your IDE open "Git Bash" or "Terminal".
+5. Make sure the current working directory is the location where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone the repository:
+    git clone https://www.github.com/username/repo-name
+7. Press "Enter" to create your local clone.
 
 ## Credits
 
 ### Media
+- All images are owned and created by the developer.
+- Icons used for social media links in footer: [Font Awesome](https://fontawesome.com/)
+
 
 ### Code
+- The navbar code was taken from Bootstrap v5.0 library and adjusted to individual needs
+- The code to create the 404 permalink in 404.md was created with the help of chatgpt
+- The projects love running and boardwalk games helped with inspiration for design concepts
+
 
 
 ## Acknowledgements
 
 Last but not least I would like to thank :
 - My mentor Mo Shami for his very helpful advice and guidance as well as feedback on my work.
+- I would like to thank my Code Institute fellow students for being a great source of inspiration and all the helpful advice.
 - My wife for her design advice and testing the page now and then.

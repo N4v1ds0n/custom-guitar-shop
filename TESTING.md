@@ -8,7 +8,7 @@
  6. [Browser compatibility](#browser-compatability)
  7. [Testing user stories](#testing-user-stories)
 
-> Return back to the [README.md](README.md) file.
+> Return back to the [README.md](readme.md) file.
 
 ## Code Validation
 
