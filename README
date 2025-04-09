@@ -90,28 +90,30 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
 
 5. As a first-time visitor, I want to easily navigate the site on my phone so I can browse on the go without frustration.
 
-6. As a first-time visitor, I want to send an inquiry or get in touch so I can ask questions or start a custom order.
+6. As a first-time visitor, I want to send an inquiry or get in touch so I can ask questions or start a custom order, I want some confirmation that my message has been received.
 
 7. As a first-time visitor, I want to find your location and contact info so I can visit the shop or contact you directly.
 
+8. As a first-time visitor, I don't want to get lost so if something does not work, I want to be able to get back to the home page asap.
+
 #### Returning User
-8. As a returning visitor, I want to quickly access the contact form so I can follow up or start a new request without searching around.
+9. As a returning visitor, I want to quickly access the contact form so I can follow up or start a new request without searching around.
 
-9. As a returning visitor, I want to subscribe to or read the newsletter so I stay in the loop on shop news and builds.
+10. As a returning visitor, I want to subscribe to or read the newsletter so I stay in the loop on shop news and builds.
 
-10. As a returning visitor, I want to share your social links and website, because I’m excited about your guitars.
+11. As a returning visitor, I want to share your social links and website, because I’m excited about your guitars.
 
 #### Site Owner
 
-11. As the site owner, I want to showcase my guitar building expertise to build trust and attract clients.
+12. As the site owner, I want to showcase my guitar building expertise to build trust and attract clients.
 
-12. As the site owner, I want to provide an easy way for people to contact me so I don’t miss potential custom orders.
+13. As the site owner, I want to provide an easy way for people to contact me so I don’t miss potential custom orders.
 
-13. As the site owner, I want to collect useful details from customers so I can prepare and quote more efficiently.
+14. As the site owner, I want to collect useful details from customers so I can prepare and quote more efficiently.
 
-14. As the site owner, I want to drive traffic through social media links to grow my following and visibility.
+15. As the site owner, I want to drive traffic through social media links to grow my following and visibility.
 
-15. As the site owner, I want to encourage newsletter signups to build a loyal community of guitar lovers.
+16. As the site owner, I want to encourage newsletter signups to build a loyal community of guitar lovers.
 
 ## Design
 
@@ -179,35 +181,35 @@ There are sixteen features implemented at this stage.
 - Informs the user about custom guitars in general.
 - gives the user an idea what visions can be made possible.
 - provides link to get in contact.
-(Relevant user stories: 1)
+(Relevant user stories: 1, 2, )
 
 ![Custom Section](./docs/feat/custom.png)
 
 ### Signature Guitar Section
 - Informs the user that the shop also creates affordable signature guitars
 - Refers to the physical store.
-(Relevant user stories: 1)
+(Relevant user stories: 1, 2)
 
 ![Signature Section](./docs/feat/signature.png)
 
 ### Customization Section
 - Informs user that existing guitars can be customized in the workshop.
 - Refers to contact form
-(Relevant user stories: 1)
+(Relevant user stories: 1, 2,)
 
 ![Customize Section](./docs/feat/customize.png)
 
 ### Guitar Setup Section
 - Informs user that shop offers setup of users guitars in the workshop workshop.
 - Refers to contact form
-(Relevant user stories: 1)
+(Relevant user stories: 1, 2, )
 
 ![Setup Section](./docs/feat/setup.png)
 
 ### Luthier Section
 - Introduces the user to the resident luthier.
 - shares the philosophy and background story of the Artisan.
-(Relevant user stories: 1,2)
+(Relevant user stories: 1, 2)
 
 ![Luthier](./docs/feat/luthier.png)
 
