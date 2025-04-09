@@ -4,7 +4,6 @@
     --vintage-green: #1b4d3e;           /* rgb( 27,  77,  62) */
     --surf-green: #ace1af;              /* rgb(172, 225, 175) */
     --vintage-cream: #f1e3d3;           /* rgb(241, 227, 211) */
-    --vintage-autumn: #e07a5f;          /* rgb(224, 122,  95) */
     --auburn: #9e2a2b;                  /* rgb(158,  42,  43) */
     --maroon: #690b22;                  /* rgb(105,  11,  34) */
 }
@@ -148,8 +147,8 @@ footer #social i {                                          /* design social med
 
 
 #luthier {
-    background-color: var(--maroon);
-    color: var(--vintage-autumn);
+    background-color: var(--auburn);
+    color: var(--vintage-cream);
     display: flex;
     flex-direction: column; /* Stack content vertically by default (for small screens) */
     align-items: center; /* Center content horizontally */
@@ -308,7 +307,7 @@ a.anchor-deep {
 
 .gallery-section {
     min-height: 300px;
-    background-color: var(--maroon);
+    background-color: var(--auburn);
     overflow: scroll;
     overflow-y: hidden;
     display: flex;
