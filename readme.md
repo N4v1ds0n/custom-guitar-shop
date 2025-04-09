@@ -305,7 +305,7 @@ There are sixteen features implemented at this stage.
 
 ## Validation
 
-Please refer to [testing.md](testing.md) file.
+Please refer to [testing.md](TESTING.md) file.
 
 
 
