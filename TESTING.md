@@ -24,9 +24,10 @@
 
 | Directory | File | URL | Screenshot |
 | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://n4v1ds0n.github.io/custom-guitar-shop) | ![screenshot](docs/testing/css-assets-style.png) |
+| assets | [style.css](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://n4v1ds0n.github.io/custom-guitar-shop) | ![screenshot](docs/testing/css/style.png) |
 
 ## Accessibility
 
 | Page | File | URL | Screenshot |
 | --- | --- | --- | --- |
+| 404 | [404.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/404.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/404)| ![screenshot](docs/testing/access/404.png) |
