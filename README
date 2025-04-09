@@ -166,14 +166,14 @@ There are sixteen features implemented at this stage.
 - the navbar is collapsable for smaller screens and fully responsive, links are available according to current page.
 - ensures easy navigation.
 - it has a hover function to highlight links
-(Relevant user stories: 5, 8)
+(Relevant user stories: 5, 9)
 
 ![Logo and NavBar](./docs/feat/logo-navbar.png)
 
 ### Hero Image and Slogan
 - Invites the user to the workshop and shows the style of the shop.
 - The slogan gives the user an idea of the store philosophy.
-(Relevant user stories: 1)
+(Relevant user stories: 1, 3)
 
 ![Hero and Slogan](./docs/feat/heroslogan.png)
 
@@ -181,28 +181,28 @@ There are sixteen features implemented at this stage.
 - Informs the user about custom guitars in general.
 - gives the user an idea what visions can be made possible.
 - provides link to get in contact.
-(Relevant user stories: 1, 2, )
+(Relevant user stories: 1, 2, 4, 9)
 
 ![Custom Section](./docs/feat/custom.png)
 
 ### Signature Guitar Section
 - Informs the user that the shop also creates affordable signature guitars
 - Refers to the physical store.
-(Relevant user stories: 1, 2)
+(Relevant user stories: 1, 2,)
 
 ![Signature Section](./docs/feat/signature.png)
 
 ### Customization Section
 - Informs user that existing guitars can be customized in the workshop.
 - Refers to contact form
-(Relevant user stories: 1, 2,)
+(Relevant user stories: 1, 2, 4, 9)
 
 ![Customize Section](./docs/feat/customize.png)
 
 ### Guitar Setup Section
 - Informs user that shop offers setup of users guitars in the workshop workshop.
 - Refers to contact form
-(Relevant user stories: 1, 2, )
+(Relevant user stories: 1, 2, 9)
 
 ![Setup Section](./docs/feat/setup.png)
 
@@ -217,7 +217,7 @@ There are sixteen features implemented at this stage.
 - Provides contact information for the users.
 - Store address.
 - Link to contact form.
-(Relevant user stories: )
+(Relevant user stories: 7, 9, 11, 15)
 
 ![Footer](./docs/feat/footer.png)
 
@@ -232,21 +232,21 @@ There are sixteen features implemented at this stage.
 ### Woods Section
 - Gives the user some knowledge of the importance of woods for the crafting process and tone.
 - Shows some exemplary woods.
-(Relevant user stories: )
+(Relevant user stories: 4)
 
 ![Woods](./docs/feat/woods.png)
  
 ### Pickups Section
 - Gives the user basic knowledge of guitar pickups and how they affect the sound of the instrument.
 - pickup-collage.
-(Relevant user stories: )
+(Relevant user stories: 4)
 
 ![Pups](./docs/feat/pups.png)
 
 ### Hardware Section
 - Gives the user an idea of how the hardware affects play and feel of a guitar.
 - Shows a guitar bridge.
-(Relevant user stories: )
+(Relevant user stories: 4)
 
 ![Hardware](./docs/feat/hardw.png)
 
@@ -254,7 +254,7 @@ There are sixteen features implemented at this stage.
 - Shows a selection of guitars built by the luthier.
 - Shows different available styles with example images.
 - Images can be enlarged via modal.
-(Relevant user stories: 1, 2, 3, )
+(Relevant user stories: 1, 2, 3, 4, 12)
 
 ![Woods](./docs/feat/gallery-1.png)
 
@@ -267,7 +267,7 @@ There are sixteen features implemented at this stage.
 - Provides a mask for a preconfiguration of a custom guitar (pic. 2).
 - Free text field for special requirements (pic 3).
 - Signup for a newsletter (pic. 4).
-(Relevant user stories: )
+(Relevant user stories: 4, 6, 10, 13, 14, 16)
 
 ![Form 1](./docs/feat/form-1.png)
 
@@ -280,140 +280,32 @@ There are sixteen features implemented at this stage.
 ### Confirmation Page
 - Gives the user some feedback that data has been sent and contact has been established.
 - Offers full navigation options to get back.
-(Relevant user stories: )
+(Relevant user stories: 6)
 
 ![Confirmation](./docs/feat/success.png)
 
 ### 404 Page
 - Informs the user of a bad link and offers navigation back to other pages.
-(Relevant user stories: )
+(Relevant user stories: 8)
 
 ![404](./docs/feat/404.png)
 
+## Validation
+
+Please refer to [TESTING.md](TESTING.md) file.
 
 
 
-### 1. Strategy Plane – User Needs & Business Objectives
-
-#### User Needs:
-Musicians and guitar enthusiasts want to explore custom guitars, see the builder’s work, learn about the process, and easily get in touch to start their own builds. The site provides intuitive access to these needs via galleries, detailed service descriptions, and a contact form.
-
-#### Business Objectives:
-
-Otto wants to promote his craftsmanship, attract commissions, and build credibility. The site achieves this by showcasing completed work, highlighting Otto’s experience, and offering clear paths for users to reach out or place orders.
-
-### 2. Scope Plane – Features & Functional Requirements
-
-#### Key Features:
-
-- Descriptive homepage with service highlights
-
-- About page showcasing Otto's background and expertise
-
-- Workshop page detailing the custom build process
-
-- Gallery page with high-quality photos
-
-- Contact form for inquiries and orders
-
-#### Functional Requirements:
-
-- Navigation that allows users to easily find info
-
-- Responsive layout for all devices
-
-- Clear form submission flow
-
-- Fast load times and visual consistency
-
-### 3. Structure Plane – Information Architecture & Interaction Design
-
-#### Information Architecture:
-Pages are logically organized around what users want to accomplish: learn about services → see the work → understand the builder → get in touch.
-
-#### Interaction Design:
-The layout ensures seamless navigation, intuitive flow from one section to another, and easy access to important actions like submitting the contact form or browsing builds.
-
-### 4. Skeleton Plane – Interface Design, Navigation, & Information Design
-
-#### Interface Design:
-Clear buttons, readable typography, and thoughtfully placed images give users confidence and ease of use.
-
-#### Navigation Design:
-A clean header with links to Home, About, Workshop, Gallery, and Contact keeps users oriented.
-
-#### Information Design:
-Key messages (like Otto’s craftsmanship or service offerings) are prioritized using headings, summaries, and visual cues.
-
-### 5. Surface Plane – Visual Design & Sensory Experience
-
-#### Visual Design:
-The site uses warm wood tones, clean typefaces, and high-quality photography to reflect the shop’s artisanal, handcrafted identity.
-
-Colour Scheme:
-
-![screenshot](docs/cgs-color-palette.png)
-
-created with the help of coolors
-
-#### Sensory Impact:
-The aesthetic evokes the feeling of a boutique guitar workshop—personal, skilled, and inspiring, making users feel connected to Otto’s craftsmanship.
-
-
-### Typography
-
-- [Whisper](https://github.com/googlefonts/whisper) was used for the primary headers and titles.
-
-- [Font Awesome](https://fontawesome.com) were used for social media icons in the footer.
-- [Emojipedia](https://emojipedia.org/) emoji were used in this readme.
-
-
-## User Stories
-
-
-## Wireframes
-
-
-## Features
-
-### Implemented Features
-
-| Feature | Notes | Screenshot |
-| --- | --- | --- |
-| Navbar | Featured on all pages, the full responsive navigation bar includes links to the Home page, About section (on home page), workshop page, gallery and the contact footer. On smaller screens the bar collapses to a burger icon and can be opened via click.This feature allows navigation without relying on the browsers navgation. The navbar is always in view, since it has a fixed position to the top of the window. | ![screenshot](docs/still to be added) |
-| Hero Image | The homepage features a beautiful artsy shot of Ottos workshop that already sets the tone for the homely atmosphere of the website. This is a place to spend quality time and find a very special instrument. |              ![screenshot](docs....) |
-| Luthier section | The | ![screenshot](docs...) |
-| Workshop page | The  | ![screenshot](docs...) |
-| Gallery page | The | ![screenshot](docs...) |
-| Footer | The footer includes contact information such as the address,  | ![screenshot](docs...) |
-| Success page |  | ![screenshot](docs...) |
-| 404 | The 404 error page will indicate when a user has navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page. | ![screenshot](docs...) |
-
-
-### Coming Features
-
-
-
-## Tools/ Technologies
-
-### Github project page
-
-## Testing
-
-testing.md file
+## Bugs
 
 ## Deployment
 
-### Github pages
 
- page can be found under the following link: [GitHub Pages](https://n4v1ds0n.github.io/custom-guitar-shop)
+## Credits
 
+### Media
 
- ## Credits
-
-| Source                                                 | Notes                                          |
-| ------------------------------------------------------ | ---------------------------------------------- |
-| [Bootstrap](https://getbootstrap.com)                  | Help generating navbar, grid layout, cards and form   |
+### Code
 
 
 ## Acknowledgements
