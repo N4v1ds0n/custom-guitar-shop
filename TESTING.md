@@ -35,3 +35,16 @@
 | form | [form.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/form.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/form.html)| ![screenshot](docs/testing/access/form.png) |
 | gallery | [gallery.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/gallery.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/gallery.html)| ![screenshot](docs/testing/access/gallery.png) |
 | index | [index.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/index.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/index.html)| ![screenshot](docs/testing/access/index.png) |
+| success | [success.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/success.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/success.html)| ![screenshot](docs/testing/access/success.png) |
+
+
+## Performance
+
+| Page | File | Screenshot |
+| --- | --- | --- |
+| 404 | [404.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/404.html)| ![screenshot](docs/testing/perf/404.png) |
+| about | [about.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/about.html)| ![screenshot](docs/testing/perf/about.png) |
+| form | [form.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/form.html)| ![screenshot](docs/testing/perf/form.png) |
+| gallery | [gallery.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/gallery.html)| ![screenshot](docs/testing/perf/gallery.png) |
+| index | [index.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/index.html)| ![screenshot](docs/testing/perf/index.png) |
+| success | [success.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/success.html)| ![screenshot](docs/testing/perf/success.png) |
