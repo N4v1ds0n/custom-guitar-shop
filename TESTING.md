@@ -10,8 +10,9 @@
 
 | Directory | File | URL | Screenshot |
 | --- | --- | --- | --- |
-| root | [404.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/404.html) | ![screenshot](docs/testing/html--404.png) |
-| root | [about.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/about.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/about.html) | ![screenshot](docs/testing/html--about.png) |
+| root | [404.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/404.html) | ![screenshot](docs/testing/html/404.png) |
+| root | [about.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/about.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/about.html) | ![screenshot](docs/testing/html/about.png) |
+| root | [form.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/form.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/form.html) | ![screenshot](docs/testing/html/form.png) |
 
 
 
