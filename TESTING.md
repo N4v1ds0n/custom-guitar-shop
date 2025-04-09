@@ -48,3 +48,16 @@
 | gallery | [gallery.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/gallery.html)| ![screenshot](docs/testing/perf/gallery.png) |
 | index | [index.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/index.html)| ![screenshot](docs/testing/perf/index.png) |
 | success | [success.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/success.html)| ![screenshot](docs/testing/perf/success.png) |
+
+### Test the website cross-device
+The pages were testet on:
+- Desktop pc
+- Samsung Galaxy A52
+- Samsung Galaxy A...
+- Kindle fire tablet
+
+### Testing compatibility of webbrowsers
+
+- Mozilla Firefox
+- Google Chrome
+- Microsoft Edge
