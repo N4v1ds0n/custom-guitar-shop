@@ -33,3 +33,4 @@
 | 404 | [404.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/404.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/404)| ![screenshot](docs/testing/access/404.png) |
 | about | [about.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/about.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/about.html)| ![screenshot](docs/testing/access/about.png) |
 | form | [form.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/form.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/form.html)| ![screenshot](docs/testing/access/form.png) |
+| gallery | [gallery.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/gallery.html)| [WAVE Report](https://wave.webaim.org/report#/https://n4v1ds0n.github.io/custom-guitar-shop/gallery.html)| ![screenshot](docs/testing/access/gallery.png) |
