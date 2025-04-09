@@ -4,6 +4,9 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/n4v1ds0n/custom-guitar-shop)](https://www.github.com/n4v1ds0n/custom-guitar-shop/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/n4v1ds0n/custom-guitar-shop)](https://www.github.com/n4v1ds0n/custom-guitar-shop)
 
+![amiresponsive-screenshot](./docs/amiresponsive.png)
+[Page on AmIResponsive](https://ui.dev/amiresponsive?url=https://n4v1ds0n.github.io/custom-guitar-shop)
+
 Welcome to Otto’s Guitar Shop, a custom guitar website built to showcase handcrafted electric guitars, personalized services, and the artistry of master luthier Otto himself.
 
 This site provides a user-friendly platform for musicians and enthusiasts to explore custom guitar builds, view past projects, and connect directly for orders and services.
@@ -28,13 +31,7 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
     2. [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
 6. [Testing](#validation)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
+   
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -54,102 +51,82 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
 
 ### Site Owner Goals
 
+- Attract new customers and bring in guitar enthusiasts and musicians looking for custom or personalized instruments.
+- Use the form to gather contact info and project details from interested customers and generate leads.
+- Showcase craftsmanship and unique guitar options to increase demand for high-value, custom orders.
+- Communicate brand’s style, values, and expertise in building or modifying guitars.
+- Increase visibility online and become a go-to source for boutique guitars and mods.
 
 
+## User Experience
+### Target Audience
+- Musicians seeking custom instruments to express their musical identity through a personalized instrument.
+- Guitar enthusiasts & collectors who want to add one-of-a-kind pieces to their collection.
+- Aspiring musicians who want to own a guitar that matches their identity, even if they’re not experts yet.
+- People looking to upgrade or modify their guitars.
+- Parents or gift buyers.
 
+### User Requirements and Expectations
 
+- Clear information on offerings making it easy to nderstand what services are provided (e.g. custom builds, modifications, set-ups).
+- Easy navigation like a simple, intuitive navigation bar with access to key pages.
+- Trust and professionalism for a trustworthy and professional presentation (logos, branding, fonts, consistent design).
+- Visual appeal for comfort, see examples of previous work (guitars, shop, craftsmanship).
+- Ability to request a quote / custom order
+- Mobile compatibility so the site works and looks good on phones and tablets.
+- Accessibility, people with disabilities should be able to navigate and use the site.
+- Reassurance (Contact Info & Socials) to reach out or check legitimacy via social media.
 
+### User Stories
 
+#### First-time User
+1. As a first-time visitor, I want to understand what the shop offers so I can figure out if you build the kind of guitar I’m looking for.
 
+2. As a first-time visitor, I want to learn about your craftsmanship and philosophy so I feel confident trusting you with a custom build.
 
+3. As a first-time visitor, I want to see past guitar builds and shop images so I can get a sense of your style and skills.
 
+4. As a first-time visitor, I want to explore customization options so I can start imagining my dream guitar.
 
+5. As a first-time visitor, I want to easily navigate the site on my phone so I can browse on the go without frustration.
 
+6. As a first-time visitor, I want to send an inquiry or get in touch so I can ask questions or start a custom order.
 
+7. As a first-time visitor, I want to find your location and contact info so I can visit the shop or contact you directly.
 
+#### Returning User
+1. As a returning visitor, I want to quickly access the contact form so I can follow up or start a new request without searching around.
 
+2. As a returning visitor, I want to check new gallery updates to see recent work or new models.
 
+3. As a returning visitor, I want to subscribe to or read the newsletter so I stay in the loop on shop news and builds.
 
+4. As a returning visitor, I want to update my previous request or preferences.
 
+5. As a returning visitor, I want to refer a friend by sharing your website, because I’m excited about your guitars.
 
+#### Site Owner
 
+1. As the site owner, I want to showcase my guitar building expertise to build trust and attract clients.
 
+2. As the site owner, I want to provide an easy way for people to contact me so I don’t miss potential custom orders.
 
+3. As the site owner, I want to collect useful details from customers so I can prepare and quote more efficiently.
 
+4. As the site owner, I want to drive traffic through social media links to grow my following and visibility.
 
+5. As the site owner, I want to encourage newsletter signups to build a loyal community of guitar lovers.
 
+## Design
+The website’s design communicates a clear message wrappe in a warm and retro-styled look. The feel of the site should, inspire creativity, and support user engagement. The combination of elegant typography like Playfair Display and Yesteryear fonts with high-quality imagery gives a sense of artisanal quality and custom design. A detailed form shows that individuality and user input are valued.
+Structured layout, consistent styling, and responsive design signal that this is a serious workshop, not a hobbyist page.
 
+### Colour
+As core- colors dark green and red colours in combination with cream/beige tones evoke a vintage, handcrafted vibe — cozy and welcoming, like aged wood or classic amps.<br> 
+The high contrast gives the site a profesional and accessible look.
 
+![color palette](./docs/cgs-color-palette.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The homepage features an overview of the core services offered:
-
-- Custom Guitars: Fully personalized electric guitars built from scratch to match your sound and style.
-
-- Signature Guitars: A line of Otto's own designs—time-tested models with professional specs.
-
-- Customization: Modify your existing guitar with premium parts, hardware, and aesthetic upgrades.
-
-- Guitar Set-Up: Complete setup services including fret dressing, action/intonation adjustment, pickup height, and more.
-
-### 👤 About
-
-This section introduces Otto, the shop’s founder and lead luthier. With over two decades of experience in guitar building, repair, and restoration, Otto brings a passion for tone and craftsmanship to every project.
-
-### 🛠 Workshop
-
-A deep dive into the components and design aspects of a custom guitar build. Learn about:
-
-- Body & neck woods
-
-- Pickup configurations
-
-- Hardware choices
-
-### 🖼 Gallery
-
-A visual showcase of previous guitars crafted in the shop. This page highlights both customer commissions and Otto’s signature builds through high-quality images and brief descriptions.
-
-### 📬 Contact
-
-A dedicated contact form allows users to:
-
-- Place custom orders
-
-- Request quotes
-
-- Ask questions about services
-
-- Start conversations around tone, builds, or repairs
-
-### 💡 Tech Note
-
-- Built with: HTML/CSS/Bootstrap components
-
-- Hosting: GitHub Pages
-
-- Form Handling: form data is sent to Code Institute formdump.
-
-
-## UX
 
 ### 1. Strategy Plane – User Needs & Business Objectives
 

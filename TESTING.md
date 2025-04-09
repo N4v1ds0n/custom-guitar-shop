@@ -1,10 +1,18 @@
 # Testing
 
+ 1. [HTML Validation](#HTML-validation)
+ 2. [CSS Validation](#CSS-validation)
+ 3. [Accessibility](#accessibility)
+ 4. [Performance](#performance)
+ 5. [Device testing](#performing-tests-on-various-devices)
+ 6. [Browser compatibility](#browser-compatability)
+ 7. [Testing user stories](#testing-user-stories)
+
 > Return back to the [README.md](README.md) file.
 
 ## Code Validation
 
-### HTML
+### HTML-validation
 
 [HTML W3C Validator](https://validator.w3.org) was used to validate html pages:
 
@@ -18,7 +26,7 @@
 | root | [success.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://n4v1ds0n.github.io/custom-guitar-shop/success.html) | ![screenshot](docs/testing/html/success.png) |
 
 
-### CSS
+### CSS-validation
 
 [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) was used to validate the custom stylesheet.
 
@@ -49,15 +57,18 @@
 | index | [index.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/index.html)| ![screenshot](docs/testing/perf/index.png) |
 | success | [success.html](https://github.com/n4v1ds0n/custom-guitar-shop/blob/main/success.html)| ![screenshot](docs/testing/perf/success.png) |
 
-### Test the website cross-device
+### Performing tests on various devices
 The pages were testet on:
 - Desktop pc
 - Samsung Galaxy A52
 - Samsung Galaxy A...
 - Kindle fire tablet
 
-### Testing compatibility of webbrowsers
+### Browser compatibility
 
 - Mozilla Firefox
 - Google Chrome
 - Microsoft Edge
+
+### Testing user stories
+
