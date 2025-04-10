@@ -105,17 +105,19 @@ The pages were testet on:
 <img src="docs/user-stories/userstory-2-4of4.png">
 </details>
 
-3. As a first-time visitor, I want to see past guitar builds and shop images so I can get a sense of your style and skills.
+3. As a first-time visitor, I want to see past guitar builds and listen to sample recordings so I can get a sense of your style and skills.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | navbar | Toggle navbar, go to gallery section | get to gallery section | Works as expected |
 | Gallery | view gallery pictures | see luthiers previous work | Works as expected |
+| Gallery | listen to sound samples | hear guitar quality | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-stories/userstory-3-1of3.png">
-<img src="docs/user-stories/userstory-3-2of3.png">
-<img src="docs/user-stories/userstory-3-3of3.png">
+<img src="docs/user-stories/userstory-3-1of4.png">
+<img src="docs/user-stories/userstory-3-2of4.png">
+<img src="docs/user-stories/userstory-3-3of4.png">
+<img src="docs/user-stories/userstory-3-4of4.png">
 </details>
 
 4. As a first-time visitor, I want to explore customization options so I can start imagining my dream guitar.
