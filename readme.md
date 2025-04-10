@@ -84,7 +84,7 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
 
 2. As a first-time visitor, I want to learn about your craftsmanship and philosophy so I feel confident trusting you with a custom build.
 
-3. As a first-time visitor, I want to see past guitar builds and shop images so I can get a sense of your style and skills.
+3. As a first-time visitor, I want to see past guitar builds and listen to sample recordings so I can get a sense of your style and skills.
 
 4. As a first-time visitor, I want to explore customization options so I can start imagining my dream guitar.
 
@@ -267,6 +267,7 @@ There are sixteen features implemented at this stage.
 - Shows a selection of guitars built by the luthier.
 - Shows different available styles with example images.
 - Images can be enlarged via modal.
+- Each section provides a sound.
 (Relevant user stories: 1, 2, 3, 4, 12)
 
 ![Woods](./docs/feat/gallery-1.png)
