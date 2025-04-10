@@ -267,12 +267,14 @@ There are sixteen features implemented at this stage.
 - Shows a selection of guitars built by the luthier.
 - Shows different available styles with example images.
 - Images can be enlarged via modal.
-- Each section provides a sound.
+- Each section provides a sound sample.
 (Relevant user stories: 1, 2, 3, 4, 12)
 
-![Woods](./docs/feat/gallery-1.png)
+![Thumbnails](./docs/feat/gallery-1.png)
 
-![Woods](./docs/feat/gallery-2.png)
+![Modal](./docs/feat/gallery-2.png)
+
+![Audio](./docs/feat/gallery-3.png)
 
 ### Contact Form
 - Gives the user the possibility to get in contact
