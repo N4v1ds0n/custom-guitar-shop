@@ -347,12 +347,13 @@ You can clone the repository by following these steps:
 ### Media
 - All images are owned and created by the developer.
 - Icons used for social media links in footer: [Font Awesome](https://fontawesome.com/)
+- audio samples have been recorded by the developer.
 
 
 ### Code
-- The navbar code was taken from Bootstrap v5.0 library and adjusted to individual needs
+- The navbar and part of the footer code was taken from Bootstrap v5.0 library and adjusted to individual needs
 - The code to create the 404 permalink in 404.md was created with the help of chatgpt
-- The projects love running and boardwalk games helped with inspiration for design concepts
+- The projects love running and boardwalk games helped with inspiration for design approach
 
 
 
