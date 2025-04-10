@@ -121,7 +121,7 @@ This site provides a user-friendly platform for musicians and enthusiasts to exp
 The website’s design communicates a clear message wrapped in a warm and retro-styled look. The vintage look with high-quality imagery should, inspire creativity, and support user engagement. A detailed form shows that individuality and user input are valued.
 Structured layout, consistent styling, and responsive design signal that this is a serious workshop, not a hobbyist page.
 
-### Colour
+### Colours
 As core- colors dark green and red colours in combination with cream/beige tones evoke a vintage, handcrafted vibe — cozy and welcoming, like aged wood or classic amps.<br> 
 The high contrast gives the site a profesional and accessible look.
 
@@ -152,17 +152,17 @@ The website follows a clear, user-friendly structure:
 <img src="docs/wireframes/form.png">
 </details>
 
-## Technologies used
+## Technologies Used
 
 ### Languages
 - HTML
 - CSS
 
-### Frameworks and Tools
+### Frameworks & Tools
 - Bootstrap v5.0 (navbar and footer)
 - Git (repo management)
 - GitHub (storage and deployment)
-- CorelDraw2024 (designing icons and logos)
+- CorelDraw2024 (designing icons and logos, editing screenshots)
 - Balsamiq (wireframing)
 - Google Fonts 
 - Favicon.io
