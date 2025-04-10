@@ -30,73 +30,72 @@
 /* global styles */
 
 /* navbar section */
-#navbar {
-    background-color: var(--vintage-green);    /* adjust navbar color to color scheme */
+#navbar {                                                           /* adjust navbar color to color scheme */
+    background-color: var(--vintage-green);    
     color: var(--vintage-cream);
 }
 
-#navbar .nav-link {
-    color: var(--vintage-cream);  /* text color for the links */
+#navbar .nav-link {                                                 /* text color for the links */
+    color: var(--vintage-cream);  
 }
   
-#navbar .nav-link:hover {
-    color: var(--surf-green);  /* change color on hover */
+#navbar .nav-link:hover {                                           /* change color on hover */
+    color: var(--surf-green);  
 }
 
-#navbar .navbar-brand {
+#navbar .navbar-brand {                                             /* set navbar logo to left side */
     margin-right: auto;   
 }
-#navbar .logo {
-    height: 40px;       /* set size of the navbar logo */
+#navbar .logo {                                                     /* set size of the navbar logo */
+    height: 40px;       
 }
 
-.navbar-title {                                             /* center navbar title */
-    flex: 1; /* make sure empty space is handled */
-    text-align: center; /* keep title central */
+.navbar-title {                                                     /* center navbar title */
+    flex: 1;
+    text-align: center;
 }
 
-header {
+header {                                                            /* adjust header color to color scheme */
     background-color: var(--vintage-green);
     margin-top: 66px;
 }
 
-header a {
+header a {                                                          /* remove underscore from header links */
     text-decoration: none;
 }
 
 /* default main design */
-main {                                                      /* set main content of page below navbar */
+main {                                                              /* set main content of page below navbar */
     flex: 1 0 auto;  
     margin-top: 66px;  
 }
 
 /* footer section */
 
-footer {                                                    /* set footer colors */
+footer {                                                            /* set footer colors */
     background-color: var(--vintage-green);  
     color: var(--vintage-cream);
 }
 
-footer #social i {                                          /* design social media icons in footer */
+footer #social i {                                                  /* design social media icons in footer */
     font-size: 2rem;                
     color: var(--vintage-cream);
     margin: 0 1.5rem;
 }
 
-.contact-link {
+.contact-link {                                                     /* set color of contact link */
     color: var(--surf-green);
 }
 
-
 /* Home page section */
 
-#hero {                                                     /* set and design hero image */
+#hero {                                                             /* set and design hero image */
     background: url(../images/workshop.png) no-repeat center center/cover; 
     position: relative;
     height: 600px;
 }
 
-#slogan {                                                   /* set an opaque background for a page slogan */
+#slogan {                                                           /* set an opaque background for a page slogan */
     background-color:  rgba(105,  11,  34, 0.5);
     font-size: 130%;
     position: absolute;
@@ -109,11 +108,11 @@ footer #social i {                                          /* design social med
 
 }
 
-#slogan > h1, #slogan > h2 {                                /*set text color for page slogan */
+#slogan > h1, #slogan > h2 {                                        /*set text color for page slogan */
     color: var(--vintage-cream);
 }
 
-#workshop {
+#workshop {                                                         /* set and design workshop section */
     background-color: var(--vintage-green);
     color: var(--vintage-cream);
     padding: 15px;
@@ -121,40 +120,39 @@ footer #social i {                                          /* design social med
 
 }
 
-#custom-shop {
+#custom-shop {                                                      /* set size and design of custom section */
     width: 90%;
     margin: 20px auto;
 }
 
-#custom-shop h2 {
+#custom-shop h2 {                                                   /* desing custom-section header */
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#guitars > div, #tuning > div {
+#guitars > div, #tuning > div {                                     /* orientate guitar section of workshop */
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#custom-shop p {
+#custom-shop p {                                                    /* set signature shop section */
     padding: 0 20px;
 }
 
-#custom-shop hr {
+#custom-shop hr {                                                   /* adjust underlining in shop section */
     border-top: 3px solid var(--vintage-cream);
     margin: 5px 0;
 }
 
-
-#luthier {
+#luthier {                                                          /* design the luthier section on homepage */
     background-color: var(--auburn);
     color: var(--vintage-cream);
     display: flex;
-    flex-direction: column; /* Stack content vertically by default (for small screens) */
+    flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center content horizontally */
     justify-content: flex-start; /* Align content to the top */
-    position: relative; /* For the button positioning */
+    position: relative; /* center button */
     padding: 20px;
     gap: 20px; /* Add space between text and image */
     width: 100%;
@@ -172,21 +170,21 @@ footer #social i {                                          /* design social med
     flex-grow: 1;
 }
 
-a.anchor {
+a.anchor {                                                          /* set an anchor to keep items below fixed navbar */
     display: block;
     position: relative;
     top: -66px;
     visibility: hidden;
 }
 
-a.anchor-deep {
+a.anchor-deep {                                                     /* lower anchor for open navbar */
     display: block;
     position: relative;
     top: -300px;
     visibility: hidden;
 }
 
-#luthier #button-container {
+#luthier #button-container {                                        /*set luthier button */
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -323,11 +321,11 @@ a.anchor-deep {
 
 .thumbnail {
     height: 200px;
-    width: 200px; /* Set the height to match the width */
-    border-radius: 50%; /* Make the image a circle */
-    object-fit: cover; /* Ensure the image covers the circle without distortion */
-    overflow: hidden; /* Ensures no overflow outside the circular border */
-    margin: 10px; /* Optional margin for spacing between thumbnails */
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    overflow: hidden; 
+    margin: 10px;
     margin: 10px;
 }
 
@@ -435,7 +433,7 @@ a.anchor-deep {
 }
 
 /* Success */
-#success-message {
+#success-message {                                                                              /* Style success page */
     background-color: var(--maroon);
     color: var(--vintage-cream);
     text-align: center;
@@ -443,12 +441,12 @@ a.anchor-deep {
     min-height: 64vh;
 }
 
-#success-message h2 {
+#success-message h2 {                                                                           /* Style success page headings */
     text-align: left;
 }
 
 /* 404 */
-#error-message {
+#error-message {                                                                                /* Style error page */
     background-color: var(--maroon);
     color: var(--vintage-cream);
     text-align: center;
@@ -458,18 +456,18 @@ a.anchor-deep {
 
 /* Media query: sm (575px and down) */
 @media screen and (max-width: 575px) {
-    #luthier {
-        flex-direction: column; /* Stack text and image vertically */
-        justify-content: flex-start; /* Align to the top */
+    #luthier {                                                      /* Stack text and image vertically and align to the top*/
+        flex-direction: column; 
+        justify-content: flex-start;
     }
 
-    #luthier img {
-        width: 80%; /* adjust image size */
-        height: auto; /* maintain aspect ratio */
+    #luthier img {                                                  /* Adjust image size while maintaining aspect ratio */
+        width: 80%; 
+        height: auto; 
     }
     
     
-    #luthier #button-container {                            /* Set button at the bottom */
+    #luthier #button-container {                                    /* Set button at the bottom */
         position: absolute;
         bottom: 20px;
         left: 50%;
@@ -480,25 +478,25 @@ a.anchor-deep {
 /* Media query: md (576px and up) */
 @media screen and (min-width: 576px) {
     /* Hero */
-    #slogan {
+    #slogan {                                                                   /* adjust slogan size for larger screens */
         width: 400px;
         left: 40px;
     }
 
-    #luthier {
-        flex-direction: row; /* Align content horizontally */
-        justify-content: space-between; /* Space out text and image */
+    #luthier {                                                                  /* Space out text and image and align content horizontally*/
+        flex-direction: row; 
+        justify-content: space-between; 
     }
 
-    #luthier img {
-        max-width: 45%; /* adjust image to text size */
-        max-height: 100%; /* keep image in container's height */
-        flex-grow: 1; /* Allow the image to grow and shrink with the text */
+    #luthier img {                                                              /* adjust image to text size and keep in container's height, allow the image to grow and shrink with the text*/
+        max-width: 45%; 
+        max-height: 100%;
+        flex-grow: 1;
     }
 
-    #luthier #luth-text {
-        flex: 1; /* Text should take remaining space */
-        margin-right: 20px; /* Space between text and image */
+    #luthier #luth-text {                                                       /* Text should take remaining space while keeping gap between text and image */
+        flex: 1; 
+        margin-right: 20px;
     }
 
 }
@@ -506,30 +504,30 @@ a.anchor-deep {
 @media screen and (min-width: 768px) {
     /* Services section */
     #guitars,
-    #tuning {
+    #tuning {                                                           /* reset workshop section to accomodate larger screen layout */
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
     #guitars > div,
-    #tuning > div {
+    #tuning > div {                                                     /* adjust workshop sub section size */
         width: 75%;
     }
 
-    #tuning > div {
+    #tuning > div {                                                     /* adjust workshop sub section tuning to align section to right of screen */
         text-align: end;
         align-self: flex-end;
     } 
 
     /* luthier section */
-    #luthier img {
-        max-width: 30%; /* adjust image to text size */
+    #luthier img {                                                      /* adjust image to text size for larger screen*/
+        max-width: 30%; 
     }
 
     /* about page */
 
-    .section-flex,
+    .section-flex,                                                      /* adjust images and text */
     #pups {
         flex-direction: row;
         align-items: stretch;
@@ -564,15 +562,15 @@ a.anchor-deep {
         flex: 1;
     }
 
-    #custom-specs {
+    #custom-specs {                                                                     /* spacing between the columns and wrap keeps it responsive on small screens */
         display: flex;
-        gap: 2rem; /* spacing between the columns */
+        gap: 2rem; 
         justify-content: space-between;
-        flex-wrap: wrap; /* keeps it responsive on small screens */
+        flex-wrap: wrap; 
         margin-top: 1.5rem;
     }
       
-    #custom-specs > div {
+    #custom-specs > div {                                                               
         flex: 1;
     }
 }
@@ -580,34 +578,34 @@ a.anchor-deep {
 /* Media query: lg (992px and up) */
 @media screen and (min-width: 992px) {
 
-    /* adjust navbar title */
-    .navbar-title {
+    /* navbar */
+    .navbar-title {                                                                     /* keep navbar title centered */
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
     }
 
+    /* luthier section*/
     #luthier {
         padding: 30px; /* Add more padding for larger screens */
         gap: 30px; /* Increase gap between text and image */
         align-items: stretch;
     }
 
-    #luthier img {
-        max-width: 25%; /* adjust image to text size */
+    #luthier img {                                                                      /* adjust image to text size */
+        max-width: 25%; 
     }
 
-    #luthier #luth-text {
-        flex: 3; /* Text should take remaining space */
+    #luthier #luth-text {                                                                   /* have text take remaining space */                                                 
+        flex: 3; 
     }
-    
-    /* about section */
 
-    .image-container img {
+    /* workshop section */
+    .image-container img {                                                                  /* set image ratio for page layout */
         width: 45%;
     }
 
-    .text-content {
+    .text-content {                                                                          /* have text take remaining space */
         flex: 2;
     }
 
@@ -616,37 +614,41 @@ a.anchor-deep {
 
 /* Media query: xl (1200px and up) */
 @media screen and (min-width: 1200px) {
-    #luthier img {
-        max-width: 20%; /* adjust image to text size */
+    /* luthier section */
+    #luthier img {                                              /* adjust image to text size */
+        max-width: 20%; 
     } 
 
-    .image-container {
+    /* workshop section */
+    .image-container {                                         /* set image ratio for page layout */
         width: 35%;
     }
 
-    .text-content {
+    .text-content {                                             /* have text take remaining space */
         flex: 3;
     }
 }
 
 /* Media query: xxl (1400px and up) */
 @media screen and (min-width: 1400px) {
-    #luthier img {
-        max-width: 10%; /* adjust image to text size */
+    /*luthier section */
+    #luthier img {                                          /* adjust image size for very large screens */
+        max-width: 10%; 
     }
     
-    .image-container {
+    /* workshop section */
+    .image-container {                                      /* set image ratio for page layout */
         width: 25%;
     }
 
-    .text-content {
+    .text-content {                                         /* have text take remaining space */
         flex: 4;
     }
 }
 
 /* Media query full hd (1900 and up */
 @media screen and (min-width: 1900px) {
-    .gallery-section {
+    .gallery-section {                                  /* on very large screens the whole gallery is visible, so scroll bars become unnecessary */
         overflow: hidden;
     }
 }
