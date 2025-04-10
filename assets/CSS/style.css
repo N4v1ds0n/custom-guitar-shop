@@ -331,6 +331,9 @@ a.anchor-deep {
     margin: 10px;
 }
 
+.audio-sample {
+    color: var(--vintage-cream);
+}
 
 #telecaster {
     background-color: var(--vintage-green);
